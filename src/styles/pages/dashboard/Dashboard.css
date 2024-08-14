@@ -1,0 +1,14 @@
+.dashboard-container{
+    background-color: #f96302;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dashboard-panel{
+    background-color: #FFF;
+    width: 80%;
+    height: 600px;
+}

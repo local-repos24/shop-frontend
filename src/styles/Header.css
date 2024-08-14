@@ -1,0 +1,55 @@
+.header-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+}
+
+/*logo container*/
+.logo-container{
+    width: 25%;
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container-img{
+    width: 5em;
+    height: 5em;
+    margin: 1.4em;
+}
+
+.logo-container-title{
+    margin-top: 2em;
+}
+
+.logo-container-title > h2, h3{
+    font-size: 1em;
+}
+
+.logo-container-title > h4{
+    font-size: 1.1em;
+}
+
+/*search-bar*/
+.search-bar-container{
+    width: 50%;
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar{
+    width: 40em;
+    height: 2.5em;
+    margin: 3em 0 0 .2em;
+}
+
+.search-bar-container > div{
+    width: 2em;
+    height: 2.5em;
+    background-color: #f96302;
+    margin-top: 3em;
+    text-align: center;
+    padding-top: .3em;
+}

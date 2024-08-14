@@ -1,0 +1,44 @@
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+/*menu at top*/
+.ul-menu-container{
+    display: flex;
+    flex-direction: row;
+    margin: 3.5em 0 0 0;
+}
+
+.ul-subMenu{
+    color: black;
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+.ul-subMenu:hover{
+    cursor: pointer;
+   }
+   
+
+/*account-menu section*/
+.account-component{
+    background-color: #FFF;
+    border:gray 1px solid;
+    z-index: 1;
+    position: absolute;
+    top: 6em;
+    right: 2em;    
+    height: 15em;
+    width: 20em;
+}
+
+.parent-buttons{
+    padding: 1em .5em 0 .5em;
+}
+
+/*icons*/
+.icon{
+    margin: 0 .2em;
+}

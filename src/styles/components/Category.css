@@ -1,0 +1,13 @@
+.category-component{
+    padding: 1em 1em;
+}
+
+.category-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.category-card{
+    background-color: blue;
+}

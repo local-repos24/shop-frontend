@@ -1,0 +1,48 @@
+/*Create Category Form*/
+.form-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    
+    border-radius: 5px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-component > input {
+    border: 1px solid #ccc;
+    border-radius: 3px 3px;
+    width: 70%;
+    height: 10%;
+}
+
+
+.form-create-cat{
+    margin:6em 0 0 20em;
+}
+
+/*Create Product Form*/
+.form-create-product{
+    width: 1000px;
+    height: 400px;
+    background-color: red;
+    margin:6em 0 0 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-section-product > input{
+    margin: .9em 0 0 1em;
+    width: 80%;
+} 
+
+.input-section-product{
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+

@@ -1,0 +1,12 @@
+
+.button-style-signin, .button-style-signup{
+    width:100%;
+    height: 3.3em;
+    margin-bottom: .2em;
+    font-style: italic;
+    color: black;
+}
+
+.button-style-signin{
+    background-color: #f96302;
+}

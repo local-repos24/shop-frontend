@@ -1,0 +1,12 @@
+.dashboard-bar{
+    background-color: #dfe5dc;
+    width: 20%;
+    height: 600px;
+    padding: 2em 0 0 1em;
+}
+
+.menu-dropdown:hover{
+    cursor: pointer;
+    background-color: #bc9a9a;
+}
+

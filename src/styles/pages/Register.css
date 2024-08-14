@@ -1,0 +1,49 @@
+.body-register{
+    background-color: #f96302;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 5em;
+}
+
+.container-register{
+    height: auto;
+    width: 500px;
+    margin: 0 0 0 500px;
+    padding-bottom: 2em;
+    background-color: #FFFF;
+    border-radius: 5px 5px;
+    box-shadow: 0px 4px 16px rgba(1, 1, 0, 0.2);
+}
+
+.head-form-section{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.head-form-section > img{
+    width: 7em;
+    height: 5em;
+}
+
+.input-form-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form-section > input, select{
+    width: 80%;
+    margin: .7em;
+    border-radius: 5px 5px;
+    border: 1px solid blue;
+}
+
+.register-btn{
+    width: 300px;
+    font-size: .8em;
+    border-radius: 5px 5px;
+    margin: 0 auto;
+    background-color: #5858FA;
+    font-size: 1em;
+}
