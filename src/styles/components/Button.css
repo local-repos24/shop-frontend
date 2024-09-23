@@ -10,3 +10,32 @@
 .button-style-signin{
     background-color: #f96302;
 }
+
+
+/*actions buttons from the form*/
+.actions-btn{
+    padding: .2em .2em;
+}
+
+.actions-btn > button{
+    margin: .4em 0 0 .4em;
+    border-radius: .3em .3em;
+    width: 5em;
+}
+
+
+.actions-btn > button:hover{
+    border: 1px solid black;
+}
+
+.update-btn{
+    background-color: #f96302;
+    color: white;
+    border: 1px solid #f96302;
+}
+
+.delete-btn{
+    background-color: #f00707;
+    color: white;
+    border: 1px solid #f00707;
+}
